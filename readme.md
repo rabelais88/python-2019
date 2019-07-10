@@ -1,0 +1,14 @@
+# 2019 modern python
+## setup
+[reference](https://gist.github.com/simonw/4835a22c79a8d3c29dd155c716b19e16)
+```bash
+python3 -m venv ./venv/
+. ./venv/bin/activate
+pip3 install -r requirements.txt
+# deactivate venv
+deactivate
+```
+## save
+```bash
+pip3 freeze >> requirements.txt
+```
