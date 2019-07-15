@@ -12,3 +12,6 @@ print(matched == None) # None object == null object in JS, java
 
 matched_two = re.search(r"WOODS", mystr, re.IGNORECASE)
 print(matched_two)
+
+replaced = re.sub(r"[ao]", "e", mystr);
+print(replaced)
