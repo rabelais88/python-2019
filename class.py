@@ -21,3 +21,5 @@ tomstown = CityWithHall(name="tomstown", hallname="tom's townhall")
 tomstown.explain(key="name")
 tomstown.explain(key="hallname")
 tomstown.explainHall()
+
+print(isinstance(charlestown, MyTown))
