@@ -8,7 +8,19 @@ pip3 install -r requirements.txt
 # deactivate venv
 deactivate
 ```
+## installing & running *jupyter notebook* on venv
+```bash
+# (activate venv first)
+pip3 install ipython
+ipython kernel install --user --name=.venv
+# running jupyter
+jupyter notebook
+```
+
 ## save
 ```bash
-pip3 freeze >> requirements.txt
+pip3 freeze > requirements.txt
 ```
+
+## caveat
+avoid using native Python names(def, lambda, decorator...) for project names. it'll crash jupyter notebook's kernel.
